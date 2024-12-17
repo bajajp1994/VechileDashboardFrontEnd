@@ -1,0 +1,38 @@
+/* Basic app container styling */
+.App {
+  text-align: center; /* This centers text, not layout */
+  padding: 20px;
+}
+
+/* Dashboard styling */
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Aligns all child elements (e.g., topRow) to the left */
+  gap: 20px;
+  width: 100%; /* Ensure it spans full width */
+  padding: 20px;
+}
+
+/* Top row styling for indicators */
+.topRow {
+  display: flex;
+  justify-content: flex-start; /* Align children to the left */
+  align-items: center;         /* Vertically center children */
+  width: 100%;                 /* Take up full width */
+  gap: 10px;                   /* Space between indicators */
+  margin-bottom: 20px;
+}
+
+/* Styling for individual indicators */
+.topRow > div {
+  text-align: left; /* Align text inside indicators to the left if needed */
+  margin: 0;        /* Remove default margins */
+}
+
+/* Styling for the Power Gauge section */
+.gauges {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
